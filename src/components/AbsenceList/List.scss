@@ -1,0 +1,32 @@
+.filter-wrapper {
+    &__typeContainer{
+        display: flex;
+        &__type{
+            font-size: 10px;
+            margin-left: 5px;
+            width: 170px;
+            font-size: 14px;
+            font-family: "Roboto";
+            padding-left: 4px;
+            border-radius: 5px;
+            border: solid 1px #ccc;
+            color: #585858;
+        }
+    }
+    
+    &__dateContainer{
+        display: flex;
+        margin-left: 20px;
+        &__date{
+            width: 170px; 
+            font-size: 14px;
+            font-family: "Roboto";
+            padding-left: 4px;
+            border: solid 1px #ccc;
+            border-radius: 5px;
+            color: #585858;
+
+        }
+
+    }
+}
